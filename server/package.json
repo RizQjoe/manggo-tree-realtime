@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Mango Tree Realtime",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon manggo-cron.js"
+  },
+  "author": "RizQjoe",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "firebase": "^4.6.1",
+    "jade": "^1.11.0",
+    "morgan": "^1.9.0",
+    "node-cron": "^1.2.1",
+    "serve-favicon": "^2.4.5"
+  }
+}
